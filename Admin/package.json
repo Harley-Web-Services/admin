@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start",
+    "start": "PORT=5000 react-scripts start",
     "build": "react-scripts build"
   },
   "author": "",
@@ -30,4 +30,6 @@
       "last 1 safari version"
     ]
   }
+  
+  
 }

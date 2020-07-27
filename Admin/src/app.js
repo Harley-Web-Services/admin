@@ -1,18 +1,22 @@
 import * as React from "react";
-
-import { Admin, Resource } from 'react-admin';
+import {Admin, Resource } from 'react-admin';
 import jsonServerProvider from 'ra-data-json-server'
 
 import { PostList, PostEdit, PostCreate, PostIcon } from './posts';
 
  export const AdminL = ()=>{
 
+    
   return (
-  <Admin dataProvider={jsonServerProvider('http://localhost:5001')}>
+   
+  <Admin dataProvider={jsonServerProvider("https://reactadmin3.herokuapp.com")}>
 
-        <Resource name="cardData" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
-     
-    </Admin>
+  
+
+        <Resource name="Customers" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
+     </Admin>
+ 
+    
   )
   }
   

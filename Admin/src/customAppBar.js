@@ -4,9 +4,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 
 const MyAppBar = props => (
-    <AppBar {...props}>
+    <AppBar>
         <Toolbar>
-            <Typography variant="h6" id="react-admin-title">MIH Admin</Typography>
+            <Typography variant="h6" id="react-admin-title">MIH Admin|||</Typography><br/>
         </Toolbar>
     </AppBar>
 );
