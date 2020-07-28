@@ -1,10 +1,9 @@
 import React from 'react'
 import ReactDOM from "react-dom"
 
-import {AdminL} from  './app'
+import App from  './App'
 
-
-ReactDOM.render(<AdminL/>,
+ReactDOM.render(<App/>,
 document.getElementById("root") 
   )
   

@@ -12,12 +12,17 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
-    "json-server": "^0.16.1",
+    "axios": "^0.19.2",
+    "cross-env": "latest",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.17.1",
     "ra-data-json-server": "^3.7.1",
     "react": "^16.13.1",
     "react-admin": "^3.7.1",
+    "react-admin-firebase": "^3.2.2",
     "react-dom": "^16.13.1",
-    "react-scripts":"^3.4.1"
+    "react-router-dom": "latest",
+    "react-scripts": "^3.4.1"
   },
   "browserslist": {
     "production": [
@@ -31,6 +36,4 @@
       "last 1 safari version"
     ]
   }
-  
-  
 }
